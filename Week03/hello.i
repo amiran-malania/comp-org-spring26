@@ -576,8 +576,8 @@ extern int __vsnprintf_chk (char * restrict , size_t __maxlen, int, size_t,
 # 62 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h" 2 3 4
 # 2 "hello.c" 2
 
-int main(void){
- puts("Hello World");
+int main(int argc, char **argv) {
+ printf("Hello World\n");
 
  return 0;
 }
